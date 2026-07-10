@@ -1,27 +1,21 @@
-# Base de Datos — Sistema de gestión hospitalaria
+# Sistema de gestión hospitalaria (SQL + Java)
 
-Práctica de **Bases de Datos**: diseño y explotación de una base de datos
-para la gestión de un hospital. Dividida en tres apartados.
+Diseño y explotación de una base de datos para la gestión de un hospital.
 
 ## Contenido
+- **modelo-entidad-relacion** — modelo E-R y su paso a tablas (SVG).
+- **consultas-sql** — creación de la BBDD, inserción de datos y consultas.
+- **cargador-java-csv-xml** — programa Java (Maven) que carga datos desde CSV y XML.
 
-1. **1-modelo-entidad-relacion/** — modelo E-R y su paso a tablas (SVG).
-2. **2-consultas-sql/** — script de creación de la BBDD, inserción de datos y consultas SQL.
-3. **3-cargador-java/** — programa Java que carga datos desde CSV y XML a la
-   base de datos (Maven).
-
-## Configuración (importante)
-
-El cargador Java **no** contiene credenciales. Debes definirlas como
-variables de entorno antes de ejecutarlo:
+## Configuración
+El cargador Java no contiene credenciales; se definen por variable de entorno:
 
 ```bash
 export DB_USER=tu_usuario
 export DB_PASSWORD=tu_contraseña
 ```
 
-En los scripts SQL, sustituye `TU_CONTRASEÑA` por la contraseña que quieras
-para el usuario `consultor`.
+En los scripts SQL, sustituye `TU_CONTRASEÑA` por la que quieras.
 
 ## Autor
 Carlos Gómez Moreno
