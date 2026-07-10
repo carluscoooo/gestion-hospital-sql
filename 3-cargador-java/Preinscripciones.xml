@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Preinscripciones>
+  <Preiscripcion>
+    <NombrePaciente>John Smith</NombrePaciente>
+    <Medicamento>Procrastin-X</Medicamento>
+    <code>1</code>
+    <brand/>
+    <date>15/01/2024</date>
+    <NombreDoctor>John Dorian</NombreDoctor>
+  </Preiscripcion>
+  <Preiscripcion>
+    <NombrePaciente>John Smith</NombrePaciente>
+    <Medicamento>Procrastin-X</Medicamento>
+    <code>1</code>
+    <brand/>
+    <date>15/01/2021</date>
+    <NombreDoctor>John Dorian</NombreDoctor>
+  </Preiscripcion>
+  <Preiscripcion>
+    <NombrePaciente>John Smith</NombrePaciente>
+    <Medicamento>Procrastin-X</Medicamento>
+    <code>1</code>
+    <brand/>
+    <date>24/4/2008</date>
+    <NombreDoctor>John Dorian</NombreDoctor>
+  </Preiscripcion>
+  <Preiscripcion>
+    <NombrePaciente>John Smith</NombrePaciente>
+    <Medicamento>Procrastin-X</Medicamento>
+    <code>1</code>
+    <brand/>
+    <date>18/06/2024</date>
+    <NombreDoctor>Elliot Reid</NombreDoctor>
+  </Preiscripcion>
+  <Preiscripcion>
+    <NombrePaciente>John Smith</NombrePaciente>
+    <Medicamento>CardioPlus</Medicamento>
+    <code>7</code>
+    <brand>General Pharma</brand>
+    <date>15/01/2024</date>
+    <NombreDoctor>Christopher Turk</NombreDoctor>
+  </Preiscripcion>
+</Preinscripciones>
