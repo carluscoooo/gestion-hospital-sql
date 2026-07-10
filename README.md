@@ -4,25 +4,24 @@
 ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?logo=apachemaven&logoColor=white)
 
-Diseño e implementación de una **base de datos relacional** para la gestión de
-un hospital, desde el modelo conceptual hasta la explotación con SQL y una
-aplicación Java que carga datos desde ficheros CSV y XML.
+Diseño e implementación de una **base de datos relacional** para la gestión de un
+hospital, cubriendo el flujo completo: del modelo conceptual a su explotación con
+SQL y a una aplicación Java que carga datos automáticamente desde ficheros CSV y XML.
 
 ## Contenido
 
 - **`modelo-entidad-relacion/`** — modelo entidad-relación y su paso a tablas (diagramas SVG).
-- **`consultas-sql/`** — script de creación de la base de datos, inserción de datos y consultas SQL.
+- **`consultas-sql/`** — creación de la base de datos, inserción de datos y consultas.
 - **`cargador-java-csv-xml/`** — programa Java (Maven + JDBC) que importa datos desde CSV y XML a MySQL.
 
-## Qué demuestra
+## Competencias que pone en práctica
 
-- **Modelado de datos** (E-R) y normalización a tablas.
+- **Modelado de datos** (entidad-relación) y normalización a tablas.
 - **SQL**: DDL, DML y consultas con `JOIN`, agregados y vistas.
-- Conexión **Java–MySQL con JDBC** y lectura de fuentes CSV/XML.
+- Integración **Java–MySQL con JDBC** y lectura de fuentes CSV/XML.
+- Buenas prácticas: **credenciales fuera del código**, mediante variables de entorno.
 
 ## Configuración
-
-El cargador Java **no contiene credenciales**; se leen de variables de entorno:
 
 ```bash
 export DB_USER=tu_usuario
@@ -43,6 +42,6 @@ cd cargador-java-csv-xml
 mvn package
 ```
 
-## Autoría
+## Autor
 
-Desarrollado por **Carlos Gómez Moreno** ([@carluscoooo](https://github.com/carluscoooo)).
+**Carlos Gómez Moreno** — [@carluscoooo](https://github.com/carluscoooo)
